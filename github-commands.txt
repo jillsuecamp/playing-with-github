@@ -1,0 +1,22 @@
+To create a new repository: 
+$ git init 
+
+To create a new remote repository for which the above commits will be applicable to: 
+$ git remote add origin <REMOTE_URL> 
+
+To add to staging area: 
+1. $ git add . 
+--> this will add all the files in the CWD to the staging area. 
+2. $ git add <FILE_NAME>
+
+To commit staged files:
+$ git commit -m "MESSAGE" 
+
+To push changes to the remote repository: 
+$ git push -u origin main 
+--> This will push the changes in your local repository to the remote repository that you specified 
+
+
+
+ 
+
